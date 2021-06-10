@@ -14,6 +14,7 @@ class RethinkDBAdapter {
      */
     constructor(...opts) {
         this.opts = opts;
+        this.r = r;
     }
 
     /**
